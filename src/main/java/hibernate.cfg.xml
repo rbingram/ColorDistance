@@ -11,7 +11,7 @@
         <property name="hibernate.connection.username">sa</property>   
         <property name="hibernate.connection.password"></property>   
         <property name="hibernate.connection.url">jdbc:hsqldb:file:colorlisttest</property>   
-        <property name="hibernate.hbm2ddl.auto">create</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
          
     </session-factory>
 </hibernate-configuration>
