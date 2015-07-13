@@ -26,7 +26,7 @@ public class ColorListEntity {
 	@Column(name = "NAME", unique = true, nullable = false, length = 100)
 	private String name = "";
 	
-	@OneToMany(cascade = CascadeType.ALl, fetch=FetchType.EAGER)
+	@OneToMany(cascade = CascadeType.ALL, fetch=FetchType.EAGER)
 	@JoinTable(name = "COLOR_COLORLIST", joinColumns = { @JoinColumn(name = "COLORLIST_ID") }, inverseJoinColumns = { @JoinColumn(name = "COLOR_ID") })
 	List<ColorEntity> colors = new ArrayList<ColorEntity>();
 	
