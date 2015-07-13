@@ -4,7 +4,7 @@
 
   <groupId>org.ingram</groupId>
   <artifactId>ColorDistance</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>war</packaging>
 
   <name>ColorDistance</name>
@@ -78,7 +78,7 @@
   </dependencies>
   
   <build>
-       <finalName>Color Distance</finalName>
+       <finalName>ColorDistance</finalName>
        
        <plugins>
             <plugin>
